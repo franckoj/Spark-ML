@@ -5,7 +5,7 @@ import org.apache.spark.ml.clustering.KMeans
 
 object ClusteringKMeans extends App{
 
-  val spark = SparkSession.builder().appName("LinearRegression")
+  val spark = SparkSession.builder().appName("kmeansClustering")
     .master("local[*]")
     .getOrCreate()
 
